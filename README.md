@@ -55,10 +55,11 @@ project2-all-gps-satellites/
 │   ├── plot1_all_gps_pseudorange.png
 │   ├── plot2_gps_snr_heatmap.png
 │   └── plot3_gps_availability.png
-├── project2_all_gps_satellites.py      ← Main notebook (run this)
-├── requirements.txt                     ← Python dependencies
-├── LICENSE                              ← MIT License
-└── README.md                            ← This file
+├── src/
+│   ├── project2_all_gps_satellites.py      ← Main python (run this)
+├── requirements.txt                        ← Python dependencies
+├── LICENSE                                 ← MIT License
+└── README.md                               ← This file
 ```
 
 ---
