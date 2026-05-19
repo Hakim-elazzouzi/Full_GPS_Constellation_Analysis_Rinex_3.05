@@ -1,8 +1,8 @@
 def get_gps_satellites(obs):
     """
-    Extracts and sorts GPS satellites from multi-GNSS RINEX dataset.
+    Extract GPS-only satellites from a multi-GNSS RINEX dataset.
 
-    Filters PRNs starting with 'G' and returns ordered list for analysis.
+    Returns a sorted list of PRNs starting with 'G'.
     """
     all_sv = obs.sv.values          # List all GPS satellites present in the file
     return sorted([s for s in all_sv if s.startswith("G")])
