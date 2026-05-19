@@ -41,7 +41,7 @@ def plot_all_pseudorange(obs, pr_code, gps_sats):
             plotted.append(sat)
 
         except Exception as e:
-        print(f"   Skipped {sat}: {e}")
+            print(f"   Skipped {sat}: {e}")
 
     # Axes formatting
 
