@@ -31,10 +31,6 @@ def select_observables(obs):
     else:
         raise ValueError("No SNR observable found")
 
-    print(f"✅ Using pseudorange observable : {pr_code}")
-    print(f"✅ Using SNR observable         : {snr_code}")
-    print()
-
     return pr_code, snr_code
 
 def compute_satellite_availability(obs, pr_code,snr_code, gps_sats):
